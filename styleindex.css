@@ -633,7 +633,7 @@ body.nav-active{
 }
 .has-before,
 .has-after{
-   position: relative;        /*   problem of img 1    */
+   position: absolute;        /*   problem of img 1    */
     z-index: 1;
 }
 .has-before::before,
@@ -1123,7 +1123,7 @@ textarea.input-field{
     top: 0;
     width: 15px;
     height: 100%;
-    /* background-image: url("./images/footer-form-pattern.svg"); */
+    background-image: url("./images/footer-form-pattern.svg");
 }
 
 .footer-brand::before{ left: 0;}
@@ -1579,7 +1579,7 @@ textarea.input-field{
         padding-block: 100px;
     }
 
-    .footer-list:last-child{ order: 2;}   /*   4:7 */
+    /* .footer-list:last-child{ order: 2;}     4:7 */
 
 
 
