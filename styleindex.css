@@ -400,7 +400,7 @@ body.nav-active{
 
 }
 
-.navbar .close-btn{
+.navbar .close_btn{
     color: var(--white);
     border: 1px solid currentColor;
     padding: 4px;
@@ -408,10 +408,10 @@ body.nav-active{
     margin-inline-start: auto;
     margin-block: 30px 20px;
 }
-.navbar .close-btn ion-icon{
+.navbar .close_btn ion-icon{
     --ionicon-strock-width:40px;
 }
-.navbar .close-btn:is(:hover, :focus-visible){
+.navbar .close_btn:is(:hover, :focus-visible){
     color: var(--gold-crayola);
 }
 .navbar .logo{
